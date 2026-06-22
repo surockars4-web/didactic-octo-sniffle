@@ -1,0 +1,31 @@
+name: HubPlugin
+version: 1.0.0
+main: ru.hubplugin.HubPlugin
+api-version: 1.20
+author: HubPlugin
+description: Hub navigation plugin with multi-type ban system
+
+commands:
+  navigator:
+    description: Open world navigator
+    aliases: [nav, menu]
+  ban:
+    description: Full ban - player stays in hub only
+    permission: hubplugin.admin
+  hardban:
+    description: Ban player from hardcore world
+    permission: hubplugin.admin
+  survivban:
+    description: Ban player from survival world
+    permission: hubplugin.admin
+  unban:
+    description: Remove ban(s) from player
+    permission: hubplugin.admin
+  hubban:
+    description: Check your ban status
+    aliases: [baninfo]
+
+permissions:
+  hubplugin.admin:
+    description: Admin access to ban management
+    default: op

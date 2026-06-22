@@ -1,0 +1,32 @@
+worlds:
+  hub: "world_hub"
+  survival: "world"
+  hardcore: "world_hardcore"
+
+hardcore-ban:
+  duration-days: 7
+  message: "&cВы умерли в хардкоре! Бан выдан на 7 дней."
+
+messages:
+  banned-kick: "&c&lВы забанены в хардкоре!\n&7Причина: &fСмерть в хардкор режиме\n&7Бан истекает: &f%date%"
+  banned-sent-to-hub: "&cВы забанены в хардкоре и перемещены в хаб!\n&7Бан истекает: &f%date%"
+  ban-expired: "&aВаш хардкор-бан истёк! Добро пожаловать обратно."
+  ban-info: "&7Ваш хардкор-бан истекает: &c%date%"
+  no-ban: "&aУ вас нет хардкор-бана."
+  teleported-hub: "&aВы перемещены в хаб!"
+  teleported-survival: "&aВы перемещены в выживание!"
+  teleported-hardcore: "&aВы перемещены в хардкор!"
+
+compass:
+  title: "&8&l⚡ &6&lВыбор мира &8&l⚡"
+  survival-name: "&a&l⛏ Выживание"
+  survival-lore:
+    - "&7Обычный режим выживания"
+    - ""
+    - "&eНажмите для телепортации"
+  hardcore-name: "&c&l☠ Хардкор"
+  hardcore-lore:
+    - "&7Хардкор режим"
+    - "&cСмерть = бан на 7 дней!"
+    - ""
+    - "&eНажмите для телепортации"
